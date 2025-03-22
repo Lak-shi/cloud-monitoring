@@ -1,0 +1,15 @@
+artifact_uri: /Users/lakshitashetty/Desktop/project/5_incident_detecton/cloud-monitor/mlruns/0/53a8301cba3a4b70a21bebbd854d81da/artifacts
+end_time: 1742609955670
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 53a8301cba3a4b70a21bebbd854d81da
+run_name: train_20250321_191915
+run_uuid: 53a8301cba3a4b70a21bebbd854d81da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742609955663
+status: 4
+tags: []
+user_id: lakshitashetty

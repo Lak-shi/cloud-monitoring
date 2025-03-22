@@ -1,0 +1,174 @@
+# System Configuration
+
+# General settings
+general:
+  debug: true
+  log_level: INFO
+  data_dir: ./data
+  models_dir: ./models
+  static_dir: ./static
+
+# Services to monitor
+services:
+  - name: api-gateway
+    metrics:
+      cpu_usage:
+        baseline: 30
+        unit: '%'
+      memory_usage:
+        baseline: 40
+        unit: '%'
+      response_time:
+        baseline: 200
+        unit: 'ms'
+      error_rate:
+        baseline: 0.5
+        unit: '%'
+      request_count:
+        baseline: 500
+        unit: 'count'
+        
+  - name: auth-service
+    metrics:
+      cpu_usage:
+        baseline: 25
+        unit: '%'
+      memory_usage:
+        baseline: 35
+        unit: '%'
+      response_time:
+        baseline: 100
+        unit: 'ms'
+      error_rate:
+        baseline: 0.2
+        unit: '%'
+      request_count:
+        baseline: 400
+        unit: 'count'
+        
+  - name: database
+    metrics:
+      cpu_usage:
+        baseline: 60
+        unit: '%'
+      memory_usage:
+        baseline: 70
+        unit: '%'
+      response_time:
+        baseline: 50
+        unit: 'ms'
+      error_rate:
+        baseline: 0.1
+        unit: '%'
+      request_count:
+        baseline: 1000
+        unit: 'count'
+        
+  - name: storage-service
+    metrics:
+      cpu_usage:
+        baseline: 40
+        unit: '%'
+      memory_usage:
+        baseline: 60
+        unit: '%'
+      response_time:
+        baseline: 150
+        unit: 'ms'
+      error_rate:
+        baseline: 0.3
+        unit: '%'
+      request_count:
+        baseline: 300
+        unit: 'count'
+        
+  - name: compute-engine
+    metrics:
+      cpu_usage:
+        baseline: 70
+        unit: '%'
+      memory_usage:
+        baseline: 65
+        unit: '%'
+      response_time:
+        baseline: 300
+        unit: 'ms'
+      error_rate:
+        baseline: 0.4
+        unit: '%'
+      request_count:
+        baseline: 200
+        unit: 'count'
+
+# Simulation settings
+simulation:
+  # How often to generate metrics (in seconds)
+  interval: 1
+  # Probability of introducing an anomaly - INCREASED for better testing
+  anomaly_probability: 0.2
+  # Possible anomaly patterns
+  anomaly_patterns:
+    - name: sudden_spike
+      description: "Sudden large increase in metric"
+      # Increased factor range for more noticeable anomalies
+      factor_range: [1.0, 2.0]
+    - name: gradual_increase
+      description: "Gradual increase over time"
+      # Increased factor range for more noticeable anomalies
+      factor_range: [0.2, 0.6]
+    - name: service_degradation
+      description: "Service performance degradation"
+      # Increased factor range for more noticeable anomalies
+      factor_range: [0.3, 0.8]
+
+# ML model settings
+ml:
+  # Isolation Forest parameters
+  isolation_forest:
+    # Increased contamination for more sensitive anomaly detection
+    contamination: 0.1
+    random_state: 42
+    n_estimators: 100
+  # Retraining settings
+  training:
+    min_samples: 20
+    retrain_probability: 0.05  # Probability to retrain on each iteration
+  # Anomaly detection
+  detection:
+    # Lowered thresholds for more sensitive detection
+    severity_thresholds:
+      low: 0.8
+      medium: 1.5
+      high: 2.5
+
+# Remediation settings
+remediation:
+  # Severity-based actions
+  actions:
+    cpu_usage:
+      high: "Scale up {service} instances by 50%"
+      medium: "Scale up {service} instances by 20%"
+      low: "Optimize workload distribution for {service}"
+    memory_usage:
+      high: "Allocate additional memory to {service}"
+      medium: "Trigger garbage collection on {service}"
+      low: "Monitor memory usage on {service}"
+    response_time:
+      high: "Reroute traffic from {service} to backup instances"
+      medium: "Optimize database queries for {service}"
+      low: "Enable response time monitoring for {service}"
+    error_rate:
+      high: "Trigger circuit breaker for {service}"
+      medium: "Restart {service} instances"
+      low: "Increase logging level for {service}"
+    request_count:
+      high: "Enable rate limiting for {service}"
+      medium: "Redistribute traffic for {service}"
+      low: "Monitor traffic patterns for {service}"
+
+# Monitoring settings
+monitoring:
+  # Dashboard settings
+  dashboard:
+    port: 5050
+    refresh_interval: 10  # in seconds

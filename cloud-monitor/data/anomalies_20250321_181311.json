@@ -1,0 +1,541 @@
+[
+  {
+    "timestamp": "2025-03-20T18:13:11.551159",
+    "service": "database",
+    "metric": "error_rate",
+    "value": 0.5068860052303898,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T18:28:11.551159",
+    "service": "auth-service",
+    "metric": "cpu_usage",
+    "value": 45.83382107555367,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T18:58:11.551159",
+    "service": "compute-engine",
+    "metric": "response_time",
+    "value": 583.1680141133237,
+    "severity": "high"
+  },
+  {
+    "timestamp": "2025-03-20T19:13:11.551159",
+    "service": "auth-service",
+    "metric": "cpu_usage",
+    "value": 48.39254557398719,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T19:43:11.551159",
+    "service": "compute-engine",
+    "metric": "error_rate",
+    "value": 0.4193777916501111,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T20:13:11.551159",
+    "service": "api-gateway",
+    "metric": "error_rate",
+    "value": 1.8787279775511854,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-20T20:13:11.551159",
+    "service": "auth-service",
+    "metric": "cpu_usage",
+    "value": 23.924974353149324,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T20:43:11.551159",
+    "service": "storage-service",
+    "metric": "memory_usage",
+    "value": 79.29089780498305,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-20T20:58:11.551159",
+    "service": "api-gateway",
+    "metric": "response_time",
+    "value": 113.25821025396439,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T20:58:11.551159",
+    "service": "api-gateway",
+    "metric": "error_rate",
+    "value": 1.2375465496417626,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-20T20:58:11.551159",
+    "service": "database",
+    "metric": "response_time",
+    "value": 11.574289344936041,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T21:28:11.551159",
+    "service": "auth-service",
+    "metric": "memory_usage",
+    "value": 38.63776199184071,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T21:28:11.551159",
+    "service": "database",
+    "metric": "cpu_usage",
+    "value": 90.82572060009562,
+    "severity": "high"
+  },
+  {
+    "timestamp": "2025-03-20T21:58:11.551159",
+    "service": "api-gateway",
+    "metric": "cpu_usage",
+    "value": 56.936241882038104,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T21:58:11.551159",
+    "service": "database",
+    "metric": "cpu_usage",
+    "value": 121.80361512124912,
+    "severity": "high"
+  },
+  {
+    "timestamp": "2025-03-20T21:58:11.551159",
+    "service": "storage-service",
+    "metric": "cpu_usage",
+    "value": 57.76571100540383,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T22:13:11.551159",
+    "service": "compute-engine",
+    "metric": "cpu_usage",
+    "value": 102.95235875228167,
+    "severity": "high"
+  },
+  {
+    "timestamp": "2025-03-20T22:28:11.551159",
+    "service": "database",
+    "metric": "memory_usage",
+    "value": 65.51268756526268,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T22:28:11.551159",
+    "service": "compute-engine",
+    "metric": "cpu_usage",
+    "value": 65.81378364457368,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T22:43:11.551159",
+    "service": "api-gateway",
+    "metric": "error_rate",
+    "value": 1.9182379014182844,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-20T22:43:11.551159",
+    "service": "auth-service",
+    "metric": "request_count",
+    "value": 527.5090081761854,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T22:43:11.551159",
+    "service": "compute-engine",
+    "metric": "memory_usage",
+    "value": 38.338747314372185,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T23:28:11.551159",
+    "service": "api-gateway",
+    "metric": "request_count",
+    "value": 279.03883502828376,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T23:28:11.551159",
+    "service": "auth-service",
+    "metric": "request_count",
+    "value": 728.8197212727287,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-20T23:43:11.551159",
+    "service": "database",
+    "metric": "request_count",
+    "value": 1437.186062327852,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-20T23:58:11.551159",
+    "service": "api-gateway",
+    "metric": "error_rate",
+    "value": 2.1918833300060965,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T00:13:11.551159",
+    "service": "api-gateway",
+    "metric": "response_time",
+    "value": 391.09427291738496,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T00:28:11.551159",
+    "service": "storage-service",
+    "metric": "response_time",
+    "value": 247.0516365245586,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T00:58:11.551159",
+    "service": "api-gateway",
+    "metric": "memory_usage",
+    "value": 29.12493925529492,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T00:58:11.551159",
+    "service": "api-gateway",
+    "metric": "error_rate",
+    "value": 1.5435745712762685,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T00:58:11.551159",
+    "service": "database",
+    "metric": "response_time",
+    "value": 62.26811716370597,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T00:58:11.551159",
+    "service": "storage-service",
+    "metric": "error_rate",
+    "value": 1.2067346119941469,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T00:58:11.551159",
+    "service": "compute-engine",
+    "metric": "error_rate",
+    "value": 1.6315626883553307,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T01:58:11.551159",
+    "service": "api-gateway",
+    "metric": "response_time",
+    "value": 298.1435940814333,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T01:58:11.551159",
+    "service": "compute-engine",
+    "metric": "request_count",
+    "value": 106.48796238042341,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T02:28:11.551159",
+    "service": "api-gateway",
+    "metric": "cpu_usage",
+    "value": 51.15539097072241,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T03:28:11.551159",
+    "service": "api-gateway",
+    "metric": "response_time",
+    "value": 416.2353775313288,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T03:58:11.551159",
+    "service": "auth-service",
+    "metric": "cpu_usage",
+    "value": 28.37211905704317,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T04:43:11.551159",
+    "service": "storage-service",
+    "metric": "request_count",
+    "value": 228.94967968006102,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T05:13:11.551159",
+    "service": "auth-service",
+    "metric": "cpu_usage",
+    "value": 51.49295710890285,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T05:13:11.551159",
+    "service": "database",
+    "metric": "response_time",
+    "value": 70.26528463935104,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T05:28:11.551159",
+    "service": "auth-service",
+    "metric": "request_count",
+    "value": 278.66739712426573,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T05:43:11.551159",
+    "service": "database",
+    "metric": "memory_usage",
+    "value": 39.84902249698654,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T05:58:11.551159",
+    "service": "api-gateway",
+    "metric": "cpu_usage",
+    "value": 20.43727881500253,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T06:28:11.551159",
+    "service": "database",
+    "metric": "response_time",
+    "value": 58.783797115015744,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T06:43:11.551159",
+    "service": "database",
+    "metric": "cpu_usage",
+    "value": 71.28447506631392,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T06:58:11.551159",
+    "service": "api-gateway",
+    "metric": "cpu_usage",
+    "value": 58.49841161139689,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T06:58:11.551159",
+    "service": "compute-engine",
+    "metric": "response_time",
+    "value": 266.1313993748072,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T07:28:11.551159",
+    "service": "auth-service",
+    "metric": "error_rate",
+    "value": 1.049923678679464,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T07:43:11.551159",
+    "service": "storage-service",
+    "metric": "cpu_usage",
+    "value": 61.456563232247525,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T07:58:11.551159",
+    "service": "auth-service",
+    "metric": "cpu_usage",
+    "value": 15.268535999131487,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T08:13:11.551159",
+    "service": "api-gateway",
+    "metric": "request_count",
+    "value": 945.49090917478,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T08:58:11.551159",
+    "service": "database",
+    "metric": "cpu_usage",
+    "value": 50.815475373116335,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T09:13:11.551159",
+    "service": "api-gateway",
+    "metric": "error_rate",
+    "value": 1.5112999068226265,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T09:13:11.551159",
+    "service": "compute-engine",
+    "metric": "response_time",
+    "value": 389.0104433094715,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T09:43:11.551159",
+    "service": "auth-service",
+    "metric": "response_time",
+    "value": 268.0684745665756,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T10:13:11.551159",
+    "service": "storage-service",
+    "metric": "cpu_usage",
+    "value": 28.798395608822247,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T10:43:11.551159",
+    "service": "auth-service",
+    "metric": "memory_usage",
+    "value": 46.772540999763876,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T10:58:11.551159",
+    "service": "storage-service",
+    "metric": "cpu_usage",
+    "value": 71.02471492325236,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T10:58:11.551159",
+    "service": "storage-service",
+    "metric": "error_rate",
+    "value": 0.4073816069722349,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T11:43:11.551159",
+    "service": "storage-service",
+    "metric": "response_time",
+    "value": 430.6235527712066,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T13:13:11.551159",
+    "service": "database",
+    "metric": "response_time",
+    "value": 121.62251183100108,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T13:43:11.551159",
+    "service": "api-gateway",
+    "metric": "error_rate",
+    "value": 2.5833426241703346,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T13:43:11.551159",
+    "service": "database",
+    "metric": "cpu_usage",
+    "value": 106.54066198438102,
+    "severity": "high"
+  },
+  {
+    "timestamp": "2025-03-21T13:43:11.551159",
+    "service": "storage-service",
+    "metric": "error_rate",
+    "value": 1.2404659117524175,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T13:58:11.551159",
+    "service": "api-gateway",
+    "metric": "cpu_usage",
+    "value": 46.421859600389524,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T14:58:11.551159",
+    "service": "database",
+    "metric": "response_time",
+    "value": 174.9698320816858,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T14:58:11.551159",
+    "service": "compute-engine",
+    "metric": "response_time",
+    "value": 530.4496523741525,
+    "severity": "high"
+  },
+  {
+    "timestamp": "2025-03-21T15:28:11.551159",
+    "service": "auth-service",
+    "metric": "memory_usage",
+    "value": 49.69716990730219,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T15:28:11.551159",
+    "service": "database",
+    "metric": "cpu_usage",
+    "value": 104.94069355718737,
+    "severity": "high"
+  },
+  {
+    "timestamp": "2025-03-21T15:28:11.551159",
+    "service": "compute-engine",
+    "metric": "response_time",
+    "value": 260.3659335088211,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T15:43:11.551159",
+    "service": "api-gateway",
+    "metric": "error_rate",
+    "value": 2.5244839425203587,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T15:58:11.551159",
+    "service": "api-gateway",
+    "metric": "request_count",
+    "value": 865.5302684200751,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T16:28:11.551159",
+    "service": "api-gateway",
+    "metric": "response_time",
+    "value": 438.90468628381984,
+    "severity": "medium"
+  },
+  {
+    "timestamp": "2025-03-21T17:43:11.551159",
+    "service": "auth-service",
+    "metric": "cpu_usage",
+    "value": 52.97796598905272,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T17:43:11.551159",
+    "service": "database",
+    "metric": "memory_usage",
+    "value": 54.69016619858171,
+    "severity": "low"
+  },
+  {
+    "timestamp": "2025-03-21T17:43:11.551159",
+    "service": "storage-service",
+    "metric": "response_time",
+    "value": 246.83683841265537,
+    "severity": "low"
+  }
+]

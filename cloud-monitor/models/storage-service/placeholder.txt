@@ -1,0 +1,2 @@
+This directory will store trained models for storage-service.
+Actual model files will be generated when the system runs.

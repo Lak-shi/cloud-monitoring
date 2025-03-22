@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-03-20T19:14:53.575496",
+    "anomaly": {
+      "timestamp": "2025-03-20T19:11:53.575496",
+      "service": "database",
+      "metric": "response_time",
+      "value": 462.8271215713434,
+      "severity": "low"
+    },
+    "action": "Optimized database queries for database",
+    "duration": 1.832791455885027
+  },
+  {
+    "timestamp": "2025-03-21T06:13:53.575496",
+    "anomaly": {
+      "timestamp": "2025-03-21T06:11:53.575496",
+      "service": "auth-service",
+      "metric": "response_time",
+      "value": 510.2934188941425,
+      "severity": "high"
+    },
+    "action": "Optimized database queries for auth-service",
+    "duration": 1.5057585456160676
+  },
+  {
+    "timestamp": "2025-03-21T00:14:53.575496",
+    "anomaly": {
+      "timestamp": "2025-03-21T00:11:53.575496",
+      "service": "database",
+      "metric": "memory_usage",
+      "value": 82.69692155954253,
+      "severity": "medium"
+    },
+    "action": "Allocated additional memory to database",
+    "duration": 1.870676993288961
+  },
+  {
+    "timestamp": "2025-03-20T22:16:53.575496",
+    "anomaly": {
+      "timestamp": "2025-03-20T22:11:53.575496",
+      "service": "storage-service",
+      "metric": "error_rate",
+      "value": 4.208138209720337,
+      "severity": "low"
+    },
+    "action": "Restarted storage-service instances",
+    "duration": 0.20473013129317574
+  },
+  {
+    "timestamp": "2025-03-20T18:15:53.575496",
+    "anomaly": {
+      "timestamp": "2025-03-20T18:11:53.575496",
+      "service": "api-gateway",
+      "metric": "error_rate",
+      "value": 3.8138218298666278,
+      "severity": "medium"
+    },
+    "action": "Restarted api-gateway instances",
+    "duration": 1.2737186906680327
+  },
+  {
+    "timestamp": "2025-03-21T12:14:53.575496",
+    "anomaly": {
+      "timestamp": "2025-03-21T12:11:53.575496",
+      "service": "api-gateway",
+      "metric": "cpu_usage",
+      "value": 79.32923215767427,
+      "severity": "low"
+    },
+    "action": "Scaled up api-gateway instances by 30%",
+    "duration": 0.29940633013838336
+  }
+]

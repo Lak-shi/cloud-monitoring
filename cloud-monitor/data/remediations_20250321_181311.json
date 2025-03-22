@@ -1,0 +1,639 @@
+[
+  {
+    "timestamp": "2025-03-20T18:38:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T18:28:11.551159",
+      "service": "auth-service",
+      "metric": "cpu_usage",
+      "value": 45.83382107555367,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for auth-service",
+    "duration": 1.85,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T19:07:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T18:58:11.551159",
+      "service": "compute-engine",
+      "metric": "response_time",
+      "value": 583.1680141133237,
+      "severity": "high"
+    },
+    "action": "Rerouted traffic from compute-engine to backup instances",
+    "duration": 0.55,
+    "successful": false
+  },
+  {
+    "timestamp": "2025-03-20T19:20:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T19:13:11.551159",
+      "service": "auth-service",
+      "metric": "cpu_usage",
+      "value": 48.39254557398719,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for auth-service",
+    "duration": 0.14,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T19:49:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T19:43:11.551159",
+      "service": "compute-engine",
+      "metric": "error_rate",
+      "value": 0.4193777916501111,
+      "severity": "low"
+    },
+    "action": "Increased logging level for compute-engine",
+    "duration": 0.22,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T20:14:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T20:13:11.551159",
+      "service": "auth-service",
+      "metric": "cpu_usage",
+      "value": 23.924974353149324,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for auth-service",
+    "duration": 1.3,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T21:00:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T20:58:11.551159",
+      "service": "api-gateway",
+      "metric": "response_time",
+      "value": 113.25821025396439,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for api-gateway",
+    "duration": 1.71,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T21:33:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T21:28:11.551159",
+      "service": "database",
+      "metric": "cpu_usage",
+      "value": 90.82572060009562,
+      "severity": "high"
+    },
+    "action": "Scaled up database instances by 50%",
+    "duration": 1.03,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T21:59:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T21:58:11.551159",
+      "service": "database",
+      "metric": "cpu_usage",
+      "value": 121.80361512124912,
+      "severity": "high"
+    },
+    "action": "Scaled up database instances by 50%",
+    "duration": 0.15,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T22:04:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T21:58:11.551159",
+      "service": "storage-service",
+      "metric": "cpu_usage",
+      "value": 57.76571100540383,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for storage-service",
+    "duration": 0.9,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T22:53:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T22:43:11.551159",
+      "service": "auth-service",
+      "metric": "request_count",
+      "value": 527.5090081761854,
+      "severity": "low"
+    },
+    "action": "Monitored traffic patterns for auth-service",
+    "duration": 1.95,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T22:52:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T22:43:11.551159",
+      "service": "compute-engine",
+      "metric": "memory_usage",
+      "value": 38.338747314372185,
+      "severity": "low"
+    },
+    "action": "Monitored memory usage on compute-engine",
+    "duration": 1.84,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T23:35:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T23:28:11.551159",
+      "service": "auth-service",
+      "metric": "request_count",
+      "value": 728.8197212727287,
+      "severity": "low"
+    },
+    "action": "Monitored traffic patterns for auth-service",
+    "duration": 0.4,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-20T23:45:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T23:43:11.551159",
+      "service": "database",
+      "metric": "request_count",
+      "value": 1437.186062327852,
+      "severity": "medium"
+    },
+    "action": "Redistributed traffic for database",
+    "duration": 1.91,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T00:03:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-20T23:58:11.551159",
+      "service": "api-gateway",
+      "metric": "error_rate",
+      "value": 2.1918833300060965,
+      "severity": "medium"
+    },
+    "action": "Restarted api-gateway instances",
+    "duration": 0.32,
+    "successful": false
+  },
+  {
+    "timestamp": "2025-03-21T01:00:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T00:58:11.551159",
+      "service": "api-gateway",
+      "metric": "error_rate",
+      "value": 1.5435745712762685,
+      "severity": "medium"
+    },
+    "action": "Restarted api-gateway instances",
+    "duration": 1.05,
+    "successful": false
+  },
+  {
+    "timestamp": "2025-03-21T00:59:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T00:58:11.551159",
+      "service": "database",
+      "metric": "response_time",
+      "value": 62.26811716370597,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for database",
+    "duration": 0.58,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T01:08:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T00:58:11.551159",
+      "service": "storage-service",
+      "metric": "error_rate",
+      "value": 1.2067346119941469,
+      "severity": "medium"
+    },
+    "action": "Restarted storage-service instances",
+    "duration": 0.75,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T01:02:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T00:58:11.551159",
+      "service": "compute-engine",
+      "metric": "error_rate",
+      "value": 1.6315626883553307,
+      "severity": "medium"
+    },
+    "action": "Restarted compute-engine instances",
+    "duration": 1.0,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T02:03:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T01:58:11.551159",
+      "service": "api-gateway",
+      "metric": "response_time",
+      "value": 298.1435940814333,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for api-gateway",
+    "duration": 1.17,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T02:06:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T01:58:11.551159",
+      "service": "compute-engine",
+      "metric": "request_count",
+      "value": 106.48796238042341,
+      "severity": "low"
+    },
+    "action": "Monitored traffic patterns for compute-engine",
+    "duration": 1.95,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T03:36:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T03:28:11.551159",
+      "service": "api-gateway",
+      "metric": "response_time",
+      "value": 416.2353775313288,
+      "severity": "medium"
+    },
+    "action": "Optimized database queries for api-gateway",
+    "duration": 0.16,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T04:03:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T03:58:11.551159",
+      "service": "auth-service",
+      "metric": "cpu_usage",
+      "value": 28.37211905704317,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for auth-service",
+    "duration": 1.3,
+    "successful": false
+  },
+  {
+    "timestamp": "2025-03-21T04:50:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T04:43:11.551159",
+      "service": "storage-service",
+      "metric": "request_count",
+      "value": 228.94967968006102,
+      "severity": "low"
+    },
+    "action": "Monitored traffic patterns for storage-service",
+    "duration": 0.72,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T05:23:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T05:13:11.551159",
+      "service": "auth-service",
+      "metric": "cpu_usage",
+      "value": 51.49295710890285,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for auth-service",
+    "duration": 0.56,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T05:23:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T05:13:11.551159",
+      "service": "database",
+      "metric": "response_time",
+      "value": 70.26528463935104,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for database",
+    "duration": 1.39,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T05:35:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T05:28:11.551159",
+      "service": "auth-service",
+      "metric": "request_count",
+      "value": 278.66739712426573,
+      "severity": "low"
+    },
+    "action": "Monitored traffic patterns for auth-service",
+    "duration": 0.69,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T05:46:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T05:43:11.551159",
+      "service": "database",
+      "metric": "memory_usage",
+      "value": 39.84902249698654,
+      "severity": "low"
+    },
+    "action": "Monitored memory usage on database",
+    "duration": 0.68,
+    "successful": false
+  },
+  {
+    "timestamp": "2025-03-21T06:00:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T05:58:11.551159",
+      "service": "api-gateway",
+      "metric": "cpu_usage",
+      "value": 20.43727881500253,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for api-gateway",
+    "duration": 1.04,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T06:34:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T06:28:11.551159",
+      "service": "database",
+      "metric": "response_time",
+      "value": 58.783797115015744,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for database",
+    "duration": 1.86,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T06:50:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T06:43:11.551159",
+      "service": "database",
+      "metric": "cpu_usage",
+      "value": 71.28447506631392,
+      "severity": "medium"
+    },
+    "action": "Scaled up database instances by 20%",
+    "duration": 1.6,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T07:52:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T07:43:11.551159",
+      "service": "storage-service",
+      "metric": "cpu_usage",
+      "value": 61.456563232247525,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for storage-service",
+    "duration": 1.33,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T09:05:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T08:58:11.551159",
+      "service": "database",
+      "metric": "cpu_usage",
+      "value": 50.815475373116335,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for database",
+    "duration": 1.98,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T09:23:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T09:13:11.551159",
+      "service": "api-gateway",
+      "metric": "error_rate",
+      "value": 1.5112999068226265,
+      "severity": "medium"
+    },
+    "action": "Restarted api-gateway instances",
+    "duration": 0.69,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T09:21:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T09:13:11.551159",
+      "service": "compute-engine",
+      "metric": "response_time",
+      "value": 389.0104433094715,
+      "severity": "medium"
+    },
+    "action": "Optimized database queries for compute-engine",
+    "duration": 0.3,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T09:52:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T09:43:11.551159",
+      "service": "auth-service",
+      "metric": "response_time",
+      "value": 268.0684745665756,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for auth-service",
+    "duration": 1.99,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T10:48:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T10:43:11.551159",
+      "service": "auth-service",
+      "metric": "memory_usage",
+      "value": 46.772540999763876,
+      "severity": "low"
+    },
+    "action": "Monitored memory usage on auth-service",
+    "duration": 1.66,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T11:44:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T11:43:11.551159",
+      "service": "storage-service",
+      "metric": "response_time",
+      "value": 430.6235527712066,
+      "severity": "medium"
+    },
+    "action": "Optimized database queries for storage-service",
+    "duration": 0.97,
+    "successful": false
+  },
+  {
+    "timestamp": "2025-03-21T13:17:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T13:13:11.551159",
+      "service": "database",
+      "metric": "response_time",
+      "value": 121.62251183100108,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for database",
+    "duration": 0.95,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T13:49:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T13:43:11.551159",
+      "service": "api-gateway",
+      "metric": "error_rate",
+      "value": 2.5833426241703346,
+      "severity": "medium"
+    },
+    "action": "Restarted api-gateway instances",
+    "duration": 1.57,
+    "successful": false
+  },
+  {
+    "timestamp": "2025-03-21T13:50:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T13:43:11.551159",
+      "service": "database",
+      "metric": "cpu_usage",
+      "value": 106.54066198438102,
+      "severity": "high"
+    },
+    "action": "Scaled up database instances by 50%",
+    "duration": 0.32,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T15:06:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T14:58:11.551159",
+      "service": "database",
+      "metric": "response_time",
+      "value": 174.9698320816858,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for database",
+    "duration": 0.22,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T15:04:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T14:58:11.551159",
+      "service": "compute-engine",
+      "metric": "response_time",
+      "value": 530.4496523741525,
+      "severity": "high"
+    },
+    "action": "Rerouted traffic from compute-engine to backup instances",
+    "duration": 0.6,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T15:36:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T15:28:11.551159",
+      "service": "auth-service",
+      "metric": "memory_usage",
+      "value": 49.69716990730219,
+      "severity": "low"
+    },
+    "action": "Monitored memory usage on auth-service",
+    "duration": 1.66,
+    "successful": false
+  },
+  {
+    "timestamp": "2025-03-21T15:53:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T15:43:11.551159",
+      "service": "api-gateway",
+      "metric": "error_rate",
+      "value": 2.5244839425203587,
+      "severity": "medium"
+    },
+    "action": "Restarted api-gateway instances",
+    "duration": 1.63,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T16:04:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T15:58:11.551159",
+      "service": "api-gateway",
+      "metric": "request_count",
+      "value": 865.5302684200751,
+      "severity": "low"
+    },
+    "action": "Monitored traffic patterns for api-gateway",
+    "duration": 1.96,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T16:31:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T16:28:11.551159",
+      "service": "api-gateway",
+      "metric": "response_time",
+      "value": 438.90468628381984,
+      "severity": "medium"
+    },
+    "action": "Optimized database queries for api-gateway",
+    "duration": 0.71,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T17:44:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T17:43:11.551159",
+      "service": "auth-service",
+      "metric": "cpu_usage",
+      "value": 52.97796598905272,
+      "severity": "low"
+    },
+    "action": "Optimized workload distribution for auth-service",
+    "duration": 1.86,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T17:52:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T17:43:11.551159",
+      "service": "database",
+      "metric": "memory_usage",
+      "value": 54.69016619858171,
+      "severity": "low"
+    },
+    "action": "Monitored memory usage on database",
+    "duration": 1.25,
+    "successful": true
+  },
+  {
+    "timestamp": "2025-03-21T17:44:11.551159",
+    "anomaly": {
+      "timestamp": "2025-03-21T17:43:11.551159",
+      "service": "storage-service",
+      "metric": "response_time",
+      "value": 246.83683841265537,
+      "severity": "low"
+    },
+    "action": "Enabled response time monitoring for storage-service",
+    "duration": 1.19,
+    "successful": true
+  }
+]
